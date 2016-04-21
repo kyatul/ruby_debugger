@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ruby-deubgger",
+        "command": "ruby-deubgger:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ruby-deubgger",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ruby-deubgger:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
