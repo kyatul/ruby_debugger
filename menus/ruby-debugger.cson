@@ -1,0 +1,8 @@
+'menu': [
+  'label': 'Debug'
+  'submenu': [
+    { 'label': 'Toggle', 'command': 'ruby-debugger:toggle'}
+    { 'type': 'separator' }
+    { 'label': 'Breakpoint', 'command': 'ruby-debugger:breakpoint'}
+  ]
+]
