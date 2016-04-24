@@ -1,12 +1,12 @@
 {
   "name": "ruby-deubgger",
-  "main": "./lib/ruby-deubgger",
+  "main": "./lib/ruby-debugger",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "ruby-deubgger:toggle"
+    "atom-workspace": "ruby-debugger:breakpoint"
   },
   "repository": "https://github.com/atom/ruby-deubgger",
   "license": "MIT",
